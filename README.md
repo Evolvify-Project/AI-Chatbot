@@ -1,6 +1,6 @@
 # Chatbot Application using Gemini API
 ## Overview
-This project is a chatbot application using the Google Generative AI model (Gemini-Pro) integrated with Streamlit. The chatbot, named "Gemini-pro," is designed to interact with users by responding to their questions using advanced generative AI capabilities.
+This project is a chatbot application using the Google Generative AI model (Gemini-Pro) integrated with Streamlit. The chatbot,is designed to interact with users by responding to their questions using advanced generative AI capabilities.
 
 ## Features
 1. Interactive chatbot interface built with Streamlit
