@@ -37,6 +37,8 @@ pip install -r requirements.txt
 3. Environment Variables
 Create a .env file in the project root directory and add your Google API key:
 
+Get the api key from google ai studio:https://aistudio.google.com/app/apikey
+
 ```bash
 GOOGLE_API_KEY=your_google_api_key_here
 ```
