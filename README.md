@@ -31,7 +31,6 @@ conda activate chatbot-env
 Alternatively, use pip to install the dependencies listed in requirements.txt:
 
 ```bash
-Copy code
 pip install -r requirements.txt
 ```
 
@@ -48,7 +47,6 @@ GOOGLE_API_KEY=your_google_api_key_here
 Execute the Streamlit application:
 
 ```bash
-Copy code
 streamlit run app.py
 ```
 
