@@ -1,6 +1,6 @@
 # Chatbot Application using Gemini API
 ## Overview
-This project is a chatbot application using the Google Generative AI model (Gemini-Pro) integrated with Streamlit. The chatbot, named "Athena," is designed to interact with users by responding to their questions using advanced generative AI capabilities.
+This project is a chatbot application using the Google Generative AI model (Gemini-Pro) integrated with Streamlit. The chatbot,is designed to interact with users by responding to their questions using advanced generative AI capabilities.
 
 ## Features
 1. Interactive chatbot interface built with Streamlit
@@ -36,6 +36,8 @@ pip install -r requirements.txt
 
 3. Environment Variables
 Create a .env file in the project root directory and add your Google API key:
+
+Get the api key from google ai studio:https://aistudio.google.com/app/apikey
 
 ```bash
 GOOGLE_API_KEY=your_google_api_key_here
