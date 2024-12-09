@@ -1,4 +1,4 @@
-# Chatbot Application using Gemini API
+# Evolvify Bot
 ## Overview
 This project is a chatbot application using the Google Generative AI model (Gemini-Pro) integrated with Streamlit. The chatbot,is designed to interact with users by responding to their questions using advanced generative AI capabilities.
 
