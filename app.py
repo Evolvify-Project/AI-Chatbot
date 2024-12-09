@@ -29,7 +29,7 @@ def is_quota_exceeded(api_key):
             {
                 "parts": [
                     {
-                        "text": "Explain how AI works"
+                        "text": "test"
                     }
                 ]
             }
@@ -99,7 +99,7 @@ gpt.configure(api_key=api_key_stored)
 
 # Configure Streamlit page settings
 st.set_page_config(
-    page_title="Chat with Gemini-Flash!",
+    page_title="Evolvify Chat",
     page_icon=":robot_face:",  # Favicon emoji
     layout="wide",  # Page layout option
 )
@@ -115,7 +115,7 @@ if "chat_session" not in st.session_state:
     st.session_state.chat_session = model.start_chat(history=[])
 
 # Display the chatbot's title on the page
-st.title("🤖 Chat with Gemini-Flash")
+st.title("🤖 Chat with Evolvify bot!")
 
 # Display the chat history
 for msg in st.session_state.chat_session.history:
@@ -123,7 +123,7 @@ for msg in st.session_state.chat_session.history:
         st.markdown(msg["content"])
 
 # Input field for user's message
-user_input = st.chat_input("Ask Gemini-Flash...")
+user_input = st.chat_input("Ask Evolvify bot...")
 if user_input:
     # Add user's message to chat and display it
     st.chat_message("user").markdown(user_input)
